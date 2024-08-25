@@ -1,0 +1,32 @@
+body{
+  font-family: Noto sans TC;
+}
+h1,h2,h3,h4,h5,h6{
+  letter-spacing: 0.1em;
+}
+p{
+  letter-spacing: 0.05em;
+}
+a{
+  text-decoration: none;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 16px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

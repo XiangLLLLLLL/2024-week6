@@ -1,0 +1,84 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size":
+      map-merge(
+        map-get($utilities, "font-size"),
+        (
+          responsive: true,
+        )
+      ),
+  )
+);
+$utilities: map-merge(
+  $utilities,
+  (
+    "color":
+      map-merge(
+        map-get($utilities, "color"),
+        (
+          responsive: true,
+        )
+      ),
+  )
+);
+$utilities: map-merge(
+  $utilities,
+  (
+    "rounded":
+      map-merge(
+        map-get($utilities, "rounded"),
+        (
+          responsive: true,
+        )
+      ),
+  )
+);
+$utilities: map-merge(
+  $utilities,
+  (
+    "rounded-start":
+      map-merge(
+        map-get($utilities, "rounded-start"),
+        (
+          responsive: true,
+        )
+      ),
+  )
+);
+$utilities: map-merge(
+  $utilities,
+  (
+    "rounded-end":
+      map-merge(
+        map-get($utilities, "rounded-end"),
+        (
+          responsive: true,
+        )
+      ),
+  )
+);
+$utilities: map-merge(
+  $utilities,
+  (
+    "flex":
+      map-merge(
+        map-get($utilities, "flex"),
+        (
+          responsive: true,
+        )
+      ),
+  )
+);
+$utilities: map-merge(
+  $utilities,
+  (
+    "align-items":
+      map-merge(
+        map-get($utilities, "align-items"),
+        (
+          responsive: true,
+        )
+      ),
+  )
+);
